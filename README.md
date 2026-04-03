@@ -3,7 +3,7 @@
 > **Paper**: [Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation](https://arxiv.org/abs/2405.13792) — AAAI 2026 Oral
 
 <div align=center>
-<img src="assets/framework.jpg" alt="tcr" width="85%">
+<img src="assets/pipeline.png" alt="tcr" width="85%">
 </div>
 
 ---
