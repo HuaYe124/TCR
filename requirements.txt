@@ -1,0 +1,22 @@
+# TCR: Transparent Conflict Resolution in RAG
+# Core dependencies
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.27.0
+datasets>=2.18.0
+protobuf>=3.20.0
+
+# Data processing
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+pandas>=2.0.0
+
+# Utilities
+tqdm>=4.66.0
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+
+# Hardware optimization
+bitsandbytes>=0.40.0  # Optional: 8-bit quantization for memory efficiency

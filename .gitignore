@@ -1,0 +1,108 @@
+# ===========================
+# Environment & Credentials
+# ===========================
+.env
+.env.local
+wandb/
+mlruns/
+tensorboard_logs/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.venv
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+*.ipynb
+*.nbconvert.json
+draft.ipynb
+draft.py
+
+# ===========================
+# Model artifacts & caches
+# ===========================
+checkpoints/
+tcr_pretrain/data/hidden_states/
+tcr_pretrain/data/qa_answerability_dataset.jsonl
+tcr_pretrain/data/wikidata_conflict_5k.jsonl
+tcr_e2e/data/tcr_training_data.jsonl
+tcr_e2e/data/squad_qa_context_complete.json
+tcr_e2e/data/squad_train.json
+transformers/
+huggingface/
+.cache/
+models/
+pretrained_model/
+ColBERT/
+nanoDPR/
+atlas/
+embeddings/
+embedding/
+embeddings/
+open-instruct/
+DeepSpeed/
+flash-attention/
+nanoGPT/
+RAG-Gist/
+
+# ===========================
+# Experiment outputs
+# ===========================
+experiments/
+results/
+output/
+outputs/
+logs/
+*.log
+nohup.out
+temp/
+tmp/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================
+# Misc
+# ===========================
+.ranking.tsv
+.model.txt
+bug.py
+.empty
+.DS_Store
+Thumbs.db
